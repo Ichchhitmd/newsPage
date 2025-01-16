@@ -60,7 +60,7 @@ const NewsDetail = () => {
                 src={imageError ? "/herosectionbg.jpeg" : newsItem.imageUrl}
                 alt={newsItem.title}
                 fill
-                className="object-cover"
+                className="object-cover rounded-lg"
                 onError={() => setImageError(true)}
               />
             </div>

@@ -32,7 +32,7 @@ const NewsCard : React.FC<NewsCardProps> = ({ news }) => {
           alt={news.title}
           width={500}
           height={150}
-          className="w-full h-56 object-cover rounded-t-lg"
+          className="w-full h-56 object-cover rounded-lg"
         />
         <span className="absolute top-4 left-4 bg-gray-200 text-blue-600 text-xs font-semibold px-2 py-1 rounded">
           {news.tag}
