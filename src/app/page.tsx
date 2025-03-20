@@ -34,7 +34,7 @@ export default function Home() {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6 text-center px-4">
-            Latest News
+            Ichchhit's News
           </h1>
 
           <div className="w-full max-w-xl px-4">
